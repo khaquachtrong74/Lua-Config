@@ -3,6 +3,9 @@ return {
   { "vague2k/vague.nvim" },
   { "ilof2/posterpole.nvim" },
   { "nyoom-engineering/oxocarbon.nvim"},
+  {"ryanpcmcquen/true-monochrome_vim"},
+  {"widatama/vim-phoenix"},
+  {"kdheepak/monochrome.nvim"},
     {
       "sainnhe/gruvbox-material",
       priority = 1000,

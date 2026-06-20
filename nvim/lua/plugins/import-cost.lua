@@ -2,10 +2,8 @@ return {
     {
         'barrett-ruth/import-cost.nvim',
         build = 'sh install.sh yarn',
-        -- if on windows
-        -- build = 'pwsh install.ps1 yarn',
         config = function()
-            require('import-cost').setup({
+            vim.g.import_cost = {
                 filetypes = {
                     'javascript',
                     'javascriptreact',
@@ -18,7 +16,7 @@ return {
                     virtual_text = '%s (gzipped: %s)',
                 },
                 highlight = 'Comment',
-            })
+            }
         end
     },
 }

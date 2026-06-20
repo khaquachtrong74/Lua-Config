@@ -6,6 +6,6 @@ vim.g.maplocalleader = "\\"
 require("config.lazy")
 require("keymaps")
 require("base")
-vim.cmd('colorscheme pastelnight')
+vim.cmd('colorscheme monochrome')
 
 
